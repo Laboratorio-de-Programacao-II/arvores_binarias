@@ -27,7 +27,7 @@ void Pre(TipoApontador p);  /* imprime em pre-ordem */
 
 ### Funções a implementar 
 
-#### `arvore.c`
+#### Arquivo `arvore.c`
 
 **`Insere(TipoRegistro x, TipoApontador *p)`** — Insere o registro `x` na árvore binária de busca apontada por `p`. Se a chave já existir, imprime `Erro : Registro ja existe na arvore\n`.
 
@@ -35,7 +35,7 @@ void Pre(TipoApontador p);  /* imprime em pre-ordem */
 
 **`Pos(TipoApontador p)`** — Imprime os elementos da árvore em **pós-ordem** (esquerda, direita, raiz), um por linha.
 
-#### `main.c`
+#### Arquivo `main.c`
 
 O `main.c` fornecido já declara as variáveis `Dicionario` e `x`, e inicializa a árvore. Você deve implementar a leitura de comandos da entrada até o fim do arquivo, executando as operações correspondentes:
 
